@@ -1,0 +1,14 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>Codo a Codo- Bootcamp Java</display-name>
+	<welcome-file-list> <welcome-file>index.html</welcome-file> </welcome-file-list>
+	<context-param>
+		<description>Uploads folder</description>
+		<param-name>file-upload</param-name>
+		<param-value>/opt/tomcat/webapps/app-web/uploads/</param-value>
+		<!--param-value>/var/lib/tomcat9/webapps/ROOT/uploads</param-value-->
+	</context-param>
+</web-app>
